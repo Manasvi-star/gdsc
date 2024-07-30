@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>level3</title>
+</head>
+<body>
+    <table border="black">
+        <caption>Student Information</caption>
+        <tr>
+            <th rowspan="6">Info</th>
+            <th rowspan="2">Name</th>
+            <th colspan="2">Address</th>
+        </tr>
+
+        <tr>
+            <th>City</th>
+            <th>House</th>
+        </tr>
+
+        <tr>
+            <td>A</td>
+            <td>Delhi</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>B</td>
+            <td>Mumbai</td>
+            <td>2</td>
+        </tr>
+
+        <tr>
+            <td>C</td>
+            <td>Kolkata</td>
+            <td>3</td>
+        </tr>
+
+        <tr>
+            <td>D</td>
+            <td>Pune</td>
+            <td>4</td>
+        </tr>
+
+        <form action="/action">
+            <div>
+                <label for="name">Name:</label>
+                 <input id="name" type="text" name="name">
+            </div>
+
+            <div>
+                sex:
+                <input type="radio" name="sex" value="male">
+                <label for="sex">Male </label>
+                <input type="radio" name="sex" value="Female">
+                <label for="sex">Female </label>
+                
+            </div>
+
+            <div>
+                <label name="country">country:</label>
+                <select name="country">
+                    <option value="india">india</option>
+                    <option value="canada">canada</option>
+                    <option value="us">usa</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="mssg">Message:</label>
+                <br>
+                <textarea id="mssg" name="mssg"></textarea>
+            </div>
+
+            <div>
+                <input type="checkbox" id="checkbox" name="checkbox">
+                <label for="checkbox">Subscribe?</label>
+            </div>
+            <button type="submit">submit</button>
+            
+        </form>
+        
+        <br>
+        <h3>Feedback Form</h3>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" placeholder="Write your name" name="name">
+            <br>
+            <label for="Email">Email:</label>
+            <input type="text" placeholder="write your email" name="email">
+            <br>
+            <label for="mssg">Message:</label>
+            <br>
+            <textarea name="mssg" id="mssg" placeholder="write something"></textarea>
+
+            <div>
+                Rate us out of 5:
+                <br>
+                <input type="radio" id="rate" name="rate" value="1">
+                <label for="rate">1</label>
+                <br>
+                <input type="radio" id="rate" name="rate" value="2">
+                <label for="rate">2</label>
+                <br>
+                <input type="radio" id="rate" name="rate" value="3">
+                <label for="rate">3</label>
+                <br>
+                <input type="radio" id="rate" name="rate" value="4">
+                <label for="rate">4</label>
+                <br>
+                <input type="radio" id="rate" name="rate" value="5">
+                <label for="rate">5</label>
+                <br>
+            </div>
+
+            <button type="submit">send your message</button>
+
+        </form>
+
+        
+
+        
+
+        
+    </table>
+
+    
+</body>
+</html>
